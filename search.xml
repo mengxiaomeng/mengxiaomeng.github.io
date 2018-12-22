@@ -3,11 +3,11 @@
   
     
     <entry>
-      <title></title>
-      <link href="/2018/12/21/wp/"/>
-      <url>/2018/12/21/wp/</url>
+      <title>post</title>
+      <link href="/2018/12/22/post/"/>
+      <url>/2018/12/22/post/</url>
       
-        <content type="html"><![CDATA[<hr><p>title:第三届南宁市网络安全技术大赛部分wp（crypto）<br>date:2018-12-21 22:50:45</p><h2 id="tags-crypto"><a href="#tags-crypto" class="headerlink" title="tags:crypto"></a>tags:crypto</h2><h1 id="第三届南宁市网络安全技术大赛wp（crypto）"><a href="#第三届南宁市网络安全技术大赛wp（crypto）" class="headerlink" title="第三届南宁市网络安全技术大赛wp（crypto）"></a>第三届南宁市网络安全技术大赛wp（crypto）</h1><h2 id="1-维吉尼亚遇上困难"><a href="#1-维吉尼亚遇上困难" class="headerlink" title="1.维吉尼亚遇上困难"></a>1.维吉尼亚遇上困难</h2><p>密文：<br> BZGTNPMMCGZFPUWJCUIGRWXPFNLHZCKOAPGLKYJNRAQFIUYRAVGNPANUMDQOAHMWTGJDXGOMPJPTKAAVZIUIWKVTUCWBWNFWDFUMPJWPMQGPTNWXTSDPLPMWJAXUHHXWPFXXGVAPFNTXVFKOYIRBOQJHCBVWVFYCGQFGUSUBDWVIYATJGTBNDKGHCTMTWIUEFJITVUGJHHIMUVJICUWYQWYGGUWPUUCWIFGWUANILKPHDKOSPJTTWJQOJHXLBJAPZHVQWPDYPGLLGDBCHTGIZCCMEGVIIJLIFFBHSMEGUJHRXBOQUBDNASPEUCWNGWSNWXTSDPLPMWJAIUHUMWPSYCTUWFBMIAMKVBNTDMQNBVDKILQSSDYVWVXIGDQFIBHSLEAVDBXGOLGDBCHTGIZVNFQFKTNGRWXUDCTGKWCOXIXKZPPFDZGXNBAXLGGWBLTLWCKOXAR</p><p>用github上的工具，跑一下,得到flag<br> <img src="https://i.imgur.com/QMFAvbz.png" alt="img"><br> <a href="https://atomcated.github.io/Vigenere/" target="_blank" rel="noopener">https://atomcated.github.io/Vigenere/</a><br> flag:{YOU ARE SO KINDLY}</p><h2 id="2-shamir重要数据损坏"><a href="#2-shamir重要数据损坏" class="headerlink" title="2.shamir重要数据损坏"></a>2.shamir重要数据损坏</h2><p>是Shamir秘密共享算法<br> <img src="https://i.imgur.com/KyHYt6N.png" alt="img"></p><p>大概了解了之后用题目给的信息进行计算<br> <img src="https://i.imgur.com/INN4jMu.png" alt="img"><br> X_1=5，X_2=7，X_3=9</p><p>（X_1,f(X_1)）=(5,2258)<br> （X_2,f(X_2)）=(7,2424)<br> （X_3,f(X_3)）=(9,2630)</p><p>a_0+a_1 x_1+a_2 x_1^2=2258<br> a_0+a_1 x_2+a_2 x_2^2=2424<br> a_0+a_1 x_3+a_2 x_3^2=2630</p><p>代入x1,x2,x3,经计算可得a0=2018，a1=23,a2=5<br> 所以s=a0=2018<br> flag：{2018}</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       
